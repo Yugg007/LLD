@@ -1,0 +1,100 @@
+# =========================
+# Maven Build & Output
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Note: Usually you want to keep the maven wrapper script, but ignore its downloaded jar cache if needed
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Java Compiled Files & Archives
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# IDE & Editor Configurations
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+# Eclipse / Spring Tool Suite (STS)
+.settings/
+.project
+.classpath
+bin/
+*.launch
+*.metadata
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# =========================
+# Operating System Files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =========================
+# Logs & Temporary Files
+# =========================
+logs/
+*.log
+*.sqlite
+*.db
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# Local Environment & Secrets
+# =========================
+.env
+*.local
+# If you use local overrides for application properties
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
